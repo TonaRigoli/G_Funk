@@ -1,0 +1,115 @@
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+/* HEADER */
+.logo{
+    width: 100px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: blanchedalmond;
+        padding: 10px;}
+header nav section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: blue;
+}    
+header nav section ul{
+    display: flex;
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: blanchedalmond;
+    transition: all 0.3s ease-in-out
+}
+header a:hover{
+    background-color: blanchedalmond;
+}
+
+/* MAIN */
+.sectionCategoriasTop{
+    display: flex;
+    background-color: black;
+    padding: 80px 0px;
+    margin: 20px 0px;
+}
+.ectionCategoriasTop img {
+    filter: brightness(60%);
+}
+.sectionCategoriasTop img:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+.sectionCategoriasTop img{
+    width: 33vw;
+}
+.seccionUltimoEnEntrar-titulo{
+text-align: center;
+}
+.sectionUltimoEnEntrar{
+    display: flex;
+    background-color: blue;
+    padding: 80px 0px;
+    margin: 20px 0px;
+}
+.sectionUltimoEnEntrar img{
+    width: 20vw;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.sectionUltimoEnEntrar a{
+    text-decoration: none;
+    color: blanchedalmond;
+    text-align: center;
+}
+.sectionInstagram{
+    display: flex;
+    background-color: black;
+    padding: 80px 0px;
+    margin: 20px 0px;
+}
+.sectionInstagram img{
+    width: 20vw;
+}
+.sectionCategoriasBottom{
+    display: flex;
+    background-color: blue;
+}
+.sectionCategoriasBottom img{
+    width: 50vw;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 80px 0px;
+    margin: 20px 0px;
+}
+footer a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.footerNav{
+    display: flex;
+    justify-content: space-around;
+}
